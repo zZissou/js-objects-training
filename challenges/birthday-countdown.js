@@ -34,3 +34,12 @@
 */
 
 // YOUR CODE HERE
+function daysUntilDate(string) {
+  var date = Date.parse(string);
+  var today = Date.now();
+  return ((date - today)/(1000*60*60*24));
+}
+  function formatDate(dateString) {
+    var today = new Date();
+    var dateArr =
+  }

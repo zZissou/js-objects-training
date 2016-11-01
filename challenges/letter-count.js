@@ -31,3 +31,10 @@
 */
 
 // YOUR CODE HERE
+function letterCount(string) {
+  var count = {};
+  string.split('').forEach(function(el) {
+    count[el] = count[el] ? count[el] + 1 : 1;
+  });
+  return count;
+}
